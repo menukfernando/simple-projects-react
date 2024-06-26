@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.accordian{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: brown;
+    padding: 40px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 10px auto;
+    background-color: burlywood;
+    padding: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
